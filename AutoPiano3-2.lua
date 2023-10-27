@@ -1,13 +1,12 @@
 local function callback(Text)
 
-if Text == ("Yes") then
+if Text == "Yes" then
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/Pqoeirnfjw/main/AP3-5.lua", true))()
 
-elseif Text == ("Not") then
+elseif Text == ("No") then
 
 print ("3.2 not loading...")
-
 
 end
 
@@ -21,7 +20,7 @@ game.StarterGui:SetCore("SendNotification", {
 
 Title = "Auto Piano Update";
 
-Text = "Do you want to use the new version?";
+Text = "Do you want to open 3.5?";
 
 Icon = "";
 
